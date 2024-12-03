@@ -1,0 +1,832 @@
+{
+    "Container_INFO": {
+        "container_num_front": [],
+        "thresh_front": 0.0,
+        "container_num_center": [],
+        "thresh_center": 0.0,
+        "container_num_rear": [],
+        "thresh_rear": 0.0
+    },
+    "Has_task": [
+        {
+            "lane": 1,
+            "has_task": false
+        },
+        {
+            "lane": 2,
+            "has_task": false
+        },
+        {
+            "lane": 3,
+            "has_task": false
+        },
+        {
+            "lane": 4,
+            "has_task": false
+        },
+        {
+            "lane": 5,
+            "has_task": false
+        },
+        {
+            "lane": 6,
+            "has_task": false
+        }
+    ],
+    "TruckHeadRecognizeResult": {
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": [],
+        "5": [
+            [
+                1,
+                "car_front",
+                0.9365,
+                [
+                    46,
+                    1309,
+                    158,
+                    1467
+                ],
+                [
+                    102,
+                    1388,
+                    112,
+                    158
+                ]
+            ]
+        ],
+        "6": []
+    },
+    "MC001": {
+        "craneId": "404-1",
+        "data": {
+            "beam_latch_status": 1,
+            "beam_stilt_angle": -10.0,
+            "beam_stilt_speed": 0.0,
+            "bypass_status": 0,
+            "camera_down_status": 0,
+            "camera_left_status": 0,
+            "camera_right_status": 0,
+            "camera_up_status": 0,
+            "camera_zoomin_status": 0,
+            "camera_zoomout_status": 0,
+            "car_backpos_motion_status": 0,
+            "car_stoppos_status": 0,
+            "conn_beam_light_status": 1,
+            "ctr_mod_auto": 0,
+            "ctr_mod_local": 1,
+            "ctr_mod_manual": 1,
+            "ctr_mod_remote": 0,
+            "ctr_on_state": 1,
+            "dive_plat_door_status": 1,
+            "escalator_light_status": 0,
+            "footpath_light_status": 1,
+            "front_beam_light_status": 1,
+            "gantry_clamp_status": 1,
+            "gantry_handle_value": 0.0,
+            "gantry_light_status": 1,
+            "gantry_move_left": 0,
+            "gantry_move_right": 0,
+            "gantry_pos": 0.0,
+            "gantry_skid_status": 0,
+            "gantry_vel": 0.0,
+            "hoist_height": 5.25,
+            "land_state": 0,
+            "lock_state": 0,
+            "mid_back_beam_light_status": 1,
+            "mid_lock_gap": 0,
+            "mid_lock_ss_state": 0,
+            "mid_lock_ud_state": 0,
+            "no_estop_status": 1,
+            "rope_pos": 0.525,
+            "rope_vel": 0.159,
+            "spreader_20f": 0,
+            "spreader_40f": 1,
+            "spreader_45f": 0,
+            "spreader_anti_sway": 0,
+            "spreader_anti_twist": 0,
+            "spreader_double_state": 1,
+            "spreader_down_status": 0,
+            "spreader_fb_tilt_angle": -18.0,
+            "spreader_fb_tilt_dir": 0,
+            "spreader_flipper_land_side_l_status": 1,
+            "spreader_flipper_land_side_r_status": 1,
+            "spreader_flipper_sea_side_l_status": 1,
+            "spreader_flipper_sea_side_r_status": 1,
+            "spreader_handle_value": 0.0,
+            "spreader_lr_rotate_angle": 20.0,
+            "spreader_lr_rotate_dir": 0,
+            "spreader_lr_tilt_angle": 8.0,
+            "spreader_lr_tilt_dir": 0,
+            "spreader_on_state": 1,
+            "spreader_reset_state": 0,
+            "spreader_single_state": 0,
+            "spreader_up_status": 1,
+            "trolley_handle_value": 0.0,
+            "trolley_light_status": 0,
+            "trolley_pos": 25.87,
+            "trolley_vel": 0.134,
+            "unlock_state": 1,
+            "weight": -100.0,
+            "weight1": 455.0,
+            "weight2": 543.0,
+            "weight3": 609.0,
+            "weight4": 522.0,
+            "wind": 0.49
+        },
+        "msg_name": "MC001",
+        "msg_uid": "4768ccda-380a-4543-90b9-9d9476ff1dae",
+        "sender": "MC",
+        "timestamp": 1733138309944
+    },
+    "MC201": {
+        "msg_uid": "1234567890",
+        "msg_name": "MC201",
+        "sender": "MC",
+        "timestamp": 16879546201,
+        "receiver": "VI",
+        "craneId": "404-1",
+        "data": {
+            "task_id": "1234",
+            "lane_id": "1",
+            "truck_id": "T008"
+        }
+    },
+    "MC202": {
+        "msg_uid": "1234567890",
+        "msg_name": "MC202",
+        "sender": "MC",
+        "timestamp": 16879546201,
+        "receiver": "VI",
+        "craneId": "404-1",
+        "data": {
+            "lane_id": "5"
+        }
+    },
+    "MC203": {
+        "msg_uid": "1234567890",
+        "msg_name": "MC203",
+        "sender": "MC",
+        "timestamp": 16879546201,
+        "receiver": "VI",
+        "craneId": "404-1",
+        "data": {
+            "task_list": []
+        }
+    },
+    "MC204": {
+        "msg_uid": "1234567890",
+        "msg_name": "MC204",
+        "sender": "MC",
+        "timestamp": 16879546201,
+        "receiver": "VI",
+        "craneId": "404-1",
+        "data": {
+            "lane_settings": {
+                "lane_id": "1",
+                "activate": true
+            }
+        }
+    },
+    "MC205": {
+        "msg_uid": "1234567890",
+        "msg_name": "MC205",
+        "sender": "MC",
+        "timestamp": 16879546201,
+        "receiver": "VI",
+        "craneId": "404-1",
+        "data": "null"
+    },
+    "MC206": {
+        "msg_uid": "1234567890",
+        "msg_name": "MC206",
+        "sender": "MC",
+        "timestamp": 16879546201,
+        "receiver": "VI",
+        "craneId": "404-1",
+        "data": {
+            "cam_code": "1"
+        }
+    },
+    "MC207": {
+        "msg_uid": "1234567890",
+        "msg_name": "MC207",
+        "sender": "MC",
+        "timestamp": 16879546201,
+        "receiver": "VI",
+        "craneId": "404-1",
+        "data": null
+    },
+    "MC301": {
+        "msg_uid": "20241201_2",
+        "msg_name": "MC301",
+        "sender": "MC",
+        "timestamp": 16879546201,
+        "receiver": "VI",
+        "craneId": "404-1",
+        "data": {
+            "lane_id": "4",
+            "guide_mission": {
+                "task_id": "1",
+                "lane_id": "4",
+                "workflow": 1,
+                "work_type": "LOAD",
+                "truck_id": "T008",
+                "work_size": 20,
+                "truck_pos": 2
+            }
+        }
+    },
+    "MC302": {
+        "msg_uid": "1234567890",
+        "msg_name": "MC302",
+        "sender": "MC",
+        "timestamp": 16879546201,
+        "receiver": "VI",
+        "craneId": "404-1",
+        "data": {
+            "lane_id": "3"
+        }
+    },
+    "MC303": {
+        "msg_uid": "1234567890",
+        "msg_name": "MC303",
+        "sender": "MC",
+        "timestamp": 16879546201,
+        "receiver": "VI",
+        "craneId": "404-1",
+        "data": {
+            "lane_id": "5"
+        }
+    },
+    "MC304": {
+        "msg_uid": "1234567890",
+        "msg_name": "MC304",
+        "sender": "MC",
+        "timestamp": 16879546201,
+        "receiver": "VI",
+        "craneId": "404-1",
+        "data": {
+            "lane_id": "5"
+        }
+    },
+    "MC305": {
+        "msg_uid": "1234567890",
+        "msg_name": "MC305",
+        "sender": "MC",
+        "timestamp": 16879546201,
+        "receiver": "VI",
+        "craneId": "404-1",
+        "data": {
+            "lane_settings": {
+                "lane_id": "1",
+                "activate": true
+            }
+        }
+    },
+    "MC306": {
+        "msg_uid": "1234567890",
+        "msg_name": "MC306",
+        "sender": "MC",
+        "timestamp": 16879546201,
+        "receiver": "VI",
+        "craneId": "404-1",
+        "data": {
+            "area_code": 5,
+            "scan_x_range": 2.5,
+            "scan_y_range": 15.0,
+            "scan_direction": 1,
+            "scan_x_pos_min": 1.0,
+            "scan_x_pos_max": 65.2
+        }
+    },
+    "MC307": {
+        "msg_uid": "1234567890",
+        "msg_name": "MC307",
+        "sender": "MC",
+        "timestamp": 16879546201,
+        "receiver": "VI",
+        "craneId": "404-1",
+        "data": {
+            "switchOn": 1,
+            "scan_area_list": [
+                1,
+                2,
+                3,
+                4
+            ]
+        }
+    },
+    "MC308": {
+        "craneId": "404-1",
+        "msg_name": "MC308",
+        "msg_uid": "24f8ec94-1058-48db-a6f4-ef03e7b47302",
+        "receiver": "VI",
+        "sender": "MC",
+        "timestamp": 1733138304905
+    },
+    "MC309": {
+        "msg_uid": "1234567890",
+        "msg_name": "MC308",
+        "sender": "MC",
+        "timestamp": 16879546201,
+        "receiver": "VI",
+        "craneId": "404-1",
+        "data": null
+    },
+    "VI000": {
+        "msg_uid": "de96d45c-b09e-11ef-8171-3cecefe35e74",
+        "msg_name": "VI000",
+        "sender": "VI",
+        "timestamp": 1733138185752,
+        "receiver": "MC",
+        "craneId": "404-1",
+        "data": {
+            "heartbeat": 2900
+        }
+    },
+    "VI001": {
+        "msg_uid": "89455bd6-b09e-11ef-9fa2-3cecefe35e74",
+        "msg_name": "VI001",
+        "sender": "VI",
+        "timestamp": "1733138042612",
+        "receiver": "MC",
+        "craneId": "404-1",
+        "data": {
+            "container1": {
+                "recognizeResults": [
+                    {
+                        "item": "container_code",
+                        "state": 1,
+                        "result": "",
+                        "images": [
+                            {
+                                "image": "workspace/VI_0812/log/door_result/left_frame_1733138040592__.jpg",
+                                "datetime": 1733138040592
+                            }
+                        ]
+                    },
+                    {
+                        "item": "container_iso",
+                        "state": 1,
+                        "result": "",
+                        "images": [
+                            {
+                                "image": "workspace/VI_0812/log/door_result/left_frame_1733138040592__.jpg",
+                                "datetime": 1733138040592
+                            }
+                        ]
+                    },
+                    {
+                        "item": "container_door_dir",
+                        "state": 1,
+                        "result": "1",
+                        "images": [
+                            {
+                                "image": "workspace/VI_0812/log/door_result/left_frame_1733138040592__.jpg",
+                                "datetime": 1733138040592
+                            }
+                        ]
+                    },
+                    null,
+                    null
+                ]
+            },
+            "container2": {
+                "recognizeResults": [
+                    {
+                        "item": "container_code",
+                        "state": 1,
+                        "result": "",
+                        "images": [
+                            {
+                                "image": "workspace/VI_0812/log/door_result/right_frame_1733138040666__.jpg",
+                                "datetime": 1733138040666
+                            }
+                        ]
+                    },
+                    {
+                        "item": "container_iso",
+                        "state": 1,
+                        "result": "",
+                        "images": [
+                            {
+                                "image": "workspace/VI_0812/log/door_result/right_frame_1733138040666__.jpg",
+                                "datetime": 1733138040666
+                            }
+                        ]
+                    },
+                    {
+                        "item": "container_door_dir",
+                        "state": 1,
+                        "result": "0",
+                        "images": [
+                            {
+                                "image": "workspace/VI_0812/log/door_result/right_frame_1733138040666__.jpg",
+                                "datetime": 1733138040666
+                            }
+                        ]
+                    },
+                    null,
+                    null
+                ]
+            }
+        }
+    },
+    "VI002": {
+        "msg_uid": "de7d366e-b09e-11ef-bfcf-3cecefe35e74",
+        "msg_name": "VI002",
+        "sender": "VI",
+        "timestamp": 1733138185584,
+        "receiver": "MC",
+        "craneId": "404-1",
+        "data": {
+            "truck_recognize_results": [
+                {
+                    "lane_id": "1",
+                    "recognizeResults": [
+                        null,
+                        null,
+                        null,
+                        null,
+                        null,
+                        null,
+                        null,
+                        null
+                    ]
+                },
+                {
+                    "lane_id": "2",
+                    "recognizeResults": [
+                        null,
+                        {
+                            "item": "truck_direction",
+                            "state": 1,
+                            "result": "",
+                            "images": [
+                                {
+                                    "image": "workspace/VI_0812/log/20241201_2/1733138112433.jpg",
+                                    "datetime": 1733138112433
+                                }
+                            ]
+                        },
+                        null,
+                        {
+                            "item": "truck_height",
+                            "state": 1,
+                            "result": "4.5",
+                            "images": [
+                                {
+                                    "image": "workspace/VI_0812/log/20241201_2/1733138108808.jpg",
+                                    "datetime": 1733138108808
+                                }
+                            ]
+                        },
+                        {
+                            "item": "truck_load_state",
+                            "state": 1,
+                            "result": "101",
+                            "images": [
+                                {
+                                    "image": "workspace/VI_0812/log/20241201_2/1733138110640.jpg",
+                                    "datetime": 1733138110640
+                                }
+                            ]
+                        },
+                        null,
+                        null,
+                        null
+                    ]
+                },
+                {
+                    "lane_id": "3",
+                    "recognizeResults": [
+                        null,
+                        {
+                            "item": "truck_direction",
+                            "state": 1,
+                            "result": "",
+                            "images": [
+                                {
+                                    "image": "workspace/VI_0812/log/20241201_2/1733138102517.jpg",
+                                    "datetime": 1733138102517
+                                }
+                            ]
+                        },
+                        null,
+                        {
+                            "item": "truck_height",
+                            "state": 1,
+                            "result": "4.5",
+                            "images": [
+                                {
+                                    "image": "workspace/VI_0812/log/20241201_2/1733138104694.jpg",
+                                    "datetime": 1733138104694
+                                }
+                            ]
+                        },
+                        {
+                            "item": "truck_load_state",
+                            "state": 1,
+                            "result": "111",
+                            "images": [
+                                {
+                                    "image": "workspace/VI_0812/log/20241201_2/1733138108226.jpg",
+                                    "datetime": 1733138108226
+                                }
+                            ]
+                        },
+                        null,
+                        null,
+                        null
+                    ]
+                },
+                {
+                    "lane_id": "4",
+                    "recognizeResults": [
+                        null,
+                        null,
+                        null,
+                        null,
+                        null,
+                        null,
+                        null,
+                        null
+                    ]
+                },
+                {
+                    "lane_id": "5",
+                    "recognizeResults": [
+                        {
+                            "item": "truck_id",
+                            "state": 1,
+                            "result": "XK20",
+                            "images": [
+                                {
+                                    "image": "workspace/VI_0812/log/car_result/frame_1733138061325_XK20.jpg",
+                                    "datetime": 1733138061325
+                                }
+                            ]
+                        },
+                        {
+                            "item": "truck_direction",
+                            "state": 1,
+                            "result": "0",
+                            "images": [
+                                {
+                                    "image": "workspace/VI_0812/log/20241201_2/1733138060714.jpg",
+                                    "datetime": 1733138060714
+                                }
+                            ]
+                        },
+                        {
+                            "item": "truck_type",
+                            "state": 1,
+                            "result": "ITK",
+                            "images": [
+                                {
+                                    "image": "workspace/VI_0812/log/car_result/frame_1733138061325_XK20.jpg",
+                                    "datetime": 1733138061325
+                                }
+                            ]
+                        },
+                        {
+                            "item": "truck_height",
+                            "state": 1,
+                            "result": "4.5",
+                            "images": [
+                                {
+                                    "image": "workspace/VI_0812/log/20241201_2/1733138060714.jpg",
+                                    "datetime": 1733138060714
+                                }
+                            ]
+                        },
+                        {
+                            "item": "truck_load_state",
+                            "state": 1,
+                            "result": "101",
+                            "images": [
+                                {
+                                    "image": "workspace/VI_0812/log/20241201_2/1733138063079.jpg",
+                                    "datetime": 1733138063079
+                                }
+                            ]
+                        },
+                        null,
+                        null,
+                        null
+                    ]
+                },
+                {
+                    "lane_id": "6",
+                    "recognizeResults": [
+                        null,
+                        null,
+                        null,
+                        null,
+                        null,
+                        null,
+                        null,
+                        null
+                    ]
+                }
+            ]
+        }
+    },
+    "VI003": {
+        "msg_uid": "b01fad7e-b09e-11ef-b8e5-3cecefe35e74",
+        "msg_name": "VI003",
+        "sender": "VI",
+        "timestamp": "1733138107796",
+        "receiver": "MC",
+        "craneId": "404-1",
+        "data": {
+            "exception_code": "E214",
+            "detail": "pic_138 is not clear",
+            "happen_time": "1733138107748",
+            "has_solved": false,
+            "solve_time": null
+        }
+    },
+    "VI004": {
+        "msg_uid": "de83277c-b09e-11ef-ba0a-3cecefe35e74",
+        "msg_name": "VI004",
+        "sender": "VI",
+        "timestamp": 1733138185623,
+        "receiver": "MC",
+        "craneId": "404-1",
+        "data": {
+            "has_spreader": true,
+            "spreader_target_x": 28.865583625619344,
+            "spreader_target_z": 40.94,
+            "spreader_target_y": -0.5687532039926327,
+            "spreader_target_theta": -0.005287656736608137,
+            "spreader_target_zeta": 0.011560178655409776,
+            "spreader_cntr_num": 0,
+            "spreader_code": 0
+        }
+    },
+    "VI005": {
+        "msg_uid": "1234567890",
+        "msg_name": "VI005",
+        "sender": "VI",
+        "timestamp": 16879546201,
+        "receiver": "MC",
+        "craneId": "404-1",
+        "data": {
+            "cam_code": "1",
+            "has_person": false,
+            "person_target_x": "0",
+            "person_target_y": "0",
+            "person_num": 0
+        }
+    },
+    "VI006": {
+        "msg_uid": "1234567890",
+        "msg_name": "VI006",
+        "sender": "VI",
+        "timestamp": 16879546201,
+        "receiver": "MC",
+        "craneId": "404-1",
+        "data": {
+            "cam_id": "3",
+            "frame_num": 102,
+            "timestart": 16879546201,
+            "timeend": 16879592394,
+            "video_info": ""
+        }
+    },
+    "VI007": {
+        "msg_uid": "de6a2240-b09e-11ef-bfcf-3cecefe35e74",
+        "msg_name": "VI007",
+        "sender": "VI",
+        "timestamp": 1733138185459,
+        "receiver": "MC",
+        "craneId": "404-1",
+        "data": {
+            "lane_guide_status": [
+                {
+                    "lane_id": "1",
+                    "guide_state": 0,
+                    "truck_distance": 9999,
+                    "truck_move_dir": 3,
+                    "has_truck": 0
+                },
+                {
+                    "lane_id": "2",
+                    "guide_state": 0,
+                    "truck_distance": 9999,
+                    "truck_move_dir": 3,
+                    "has_truck": 0
+                },
+                {
+                    "lane_id": "3",
+                    "guide_state": 0,
+                    "truck_distance": 9999,
+                    "truck_move_dir": 3,
+                    "has_truck": 0
+                },
+                {
+                    "lane_id": "4",
+                    "guide_state": 0,
+                    "truck_distance": 9999,
+                    "truck_move_dir": 3,
+                    "has_truck": 1
+                },
+                {
+                    "lane_id": "5",
+                    "guide_state": 0,
+                    "truck_distance": 9999,
+                    "truck_move_dir": 3,
+                    "has_truck": 1
+                },
+                {
+                    "lane_id": "6",
+                    "guide_state": 0,
+                    "truck_distance": 9999,
+                    "truck_move_dir": 3,
+                    "has_truck": 0
+                }
+            ]
+        }
+    },
+    "VI008": {
+        "msg_uid": "71980be4-b082-11ef-bfcf-3cecefe35e74",
+        "msg_name": "VI008",
+        "sender": "VI",
+        "timestamp": 1733125976980,
+        "receiver": "MC",
+        "craneId": "404-1",
+        "data": {
+            "lane_id": "4",
+            "has_car": true,
+            "car_target_x": 34.3375,
+            "car_target_y": 0.0248,
+            "car_target_t": 0.01,
+            "has_cntr": true,
+            "cntr_target_x": null,
+            "cntr_target_y": null,
+            "cntr_target_t": null,
+            "cntr2_target_x": null,
+            "cntr2_target_y": null,
+            "cntr2_target_t": null,
+            "target_dis": 0.0,
+            "cntr_dislocation": false,
+            "cntr_pos": 3,
+            "vehicle_dir": null
+        }
+    },
+    "VI009": {
+        "msg_uid": "de8ddc8a-b09e-11ef-953d-3cecefe35e74",
+        "msg_name": "VI009",
+        "sender": "VI",
+        "timestamp": "1733138185693",
+        "receiver": "MC",
+        "craneId": "404-1",
+        "data": {
+            "area_code": 4,
+            "cam_code_list": [
+                169
+            ],
+            "has_object": false,
+            "object_distance": 12.550348889725457,
+            "object_type": null,
+            "has_person": false,
+            "person_target_x": null,
+            "person_target_y": null,
+            "person_num": 0
+        }
+    },
+    "VI010": {
+        "msg_uid": "bbc3b3a6-b048-11ef-9bbb-3cecefe35e74",
+        "msg_name": "VI010",
+        "sender": "VI",
+        "timestamp": "1733101190607",
+        "receiver": "MC",
+        "craneId": "404-1",
+        "data": {
+            "on_area_list": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+            ],
+            "off_area_list": []
+        }
+    },
+    "VI011": {
+        "msg_uid": "b3247a5e-b09e-11ef-896b-3cecefe35e74",
+        "msg_name": "VI011",
+        "sender": "VI",
+        "timestamp": 1733138112860,
+        "receiver": "MC",
+        "craneId": "404-1",
+        "data": {
+            "fog_level": 0
+        }
+    }
+}
