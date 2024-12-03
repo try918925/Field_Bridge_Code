@@ -1,0 +1,269 @@
+{
+    "MC001": {
+        "craneId": "404-1",
+        "data": {
+            "beam_latch_status": 1,
+            "beam_stilt_angle": -10.0,
+            "beam_stilt_speed": 0.0,
+            "bypass_status": 0,
+            "camera_down_status": 0,
+            "camera_left_status": 0,
+            "camera_right_status": 0,
+            "camera_up_status": 0,
+            "camera_zoomin_status": 0,
+            "camera_zoomout_status": 0,
+            "car_backpos_motion_status": 0,
+            "car_stoppos_status": 0,
+            "conn_beam_light_status": 0,
+            "ctr_mod_auto": 1,
+            "ctr_mod_local": 0,
+            "ctr_mod_manual": 0,
+            "ctr_mod_remote": 1,
+            "ctr_on_state": 1,
+            "dive_plat_door_status": 1,
+            "escalator_light_status": 0,
+            "footpath_light_status": 0,
+            "front_beam_light_status": 0,
+            "gantry_clamp_status": 1,
+            "gantry_handle_value": 0.0,
+            "gantry_light_status": 0,
+            "gantry_move_left": 0,
+            "gantry_move_right": 0,
+            "gantry_pos": 0.0,
+            "gantry_skid_status": 0,
+            "gantry_vel": 0.0,
+            "hoist_height": 22.59,
+            "land_state": 0,
+            "lock_state": 0,
+            "mid_back_beam_light_status": 0,
+            "mid_lock_gap": 0,
+            "mid_lock_ss_state": 0,
+            "mid_lock_ud_state": 0,
+            "no_estop_status": 1,
+            "rope_pos": 2.259,
+            "rope_vel": 0.0,
+            "spreader_20f": 1,
+            "spreader_40f": 0,
+            "spreader_45f": 0,
+            "spreader_anti_sway": 1,
+            "spreader_anti_twist": 0,
+            "spreader_double_state": 0,
+            "spreader_down_status": 0,
+            "spreader_fb_tilt_angle": 0.0,
+            "spreader_fb_tilt_dir": 0,
+            "spreader_flipper_land_side_l_status": 0,
+            "spreader_flipper_land_side_r_status": 0,
+            "spreader_flipper_sea_side_l_status": 0,
+            "spreader_flipper_sea_side_r_status": 0,
+            "spreader_handle_value": 0.0,
+            "spreader_lr_rotate_angle": 18.0,
+            "spreader_lr_rotate_dir": 0,
+            "spreader_lr_tilt_angle": 0.0,
+            "spreader_lr_tilt_dir": 0,
+            "spreader_on_state": 1,
+            "spreader_reset_state": 0,
+            "spreader_single_state": 1,
+            "spreader_up_status": 0,
+            "trolley_handle_value": 0.0,
+            "trolley_light_status": 0,
+            "trolley_pos": 58.66,
+            "trolley_vel": 0.0,
+            "unlock_state": 1,
+            "weight": -85.0,
+            "weight1": 505.0,
+            "weight2": 573.0,
+            "weight3": 581.0,
+            "weight4": 487.0,
+            "wind": 0.757
+        },
+        "msg_name": "MC001",
+        "msg_uid": "b3621b33-696a-4bd5-a7b1-859b29da3cd7",
+        "sender": "MC",
+        "timestamp": 1717057601458
+    },
+    "MC101": {
+        "craneId": "404-1",
+        "data": {
+            "currentAction": {
+                "actionIndex": 115,
+                "actionMode": "auto",
+                "actionObject": 0,
+                "actionType": 1,
+                "cntr_position": 0,
+                "dropPositionHeight": 0.0,
+                "landSideSafetyHeight": 9.0,
+                "objectHeight": 0.0,
+                "seaSideSafetyHeight": 29.0,
+                "soa_boat_type": 0,
+                "spreaderSize": "20f",
+                "targetPosition": {
+                    "bay_type": 0,
+                    "gantryPos": 0.0,
+                    "hoistHeight": 23.0,
+                    "shipRowIndex": 0,
+                    "targetPositionType": 4,
+                    "trolleyPos": 47.0
+                },
+                "workflow": 0
+            }
+        },
+        "msg_name": "MC101",
+        "msg_uid": "b425c704-8c53-49ca-914f-60e08608e743",
+        "receiver": "CT",
+        "sender": "MC",
+        "timestamp": 1717057587102
+    },
+    "MC102": {
+        "msg_uid": "1234567890",
+        "msg_name": "MC102",
+        "sender": "MC",
+        "timestamp": 16879546201,
+        "receiver": "CT",
+        "craneId": "404-1",
+        "data": {
+            "stopMode": null
+        }
+    },
+    "MC103": {
+        "msg_uid": "1234567890",
+        "msg_name": "MC103",
+        "sender": "MC",
+        "timestamp": 16879546201,
+        "receiver": "CT",
+        "craneId": "404-1",
+        "data": "null"
+    },
+    "MC104": {
+        "msg_uid": "1234567890",
+        "msg_name": "MC104",
+        "sender": "MC",
+        "timestamp": 16879546201,
+        "receiver": "CT",
+        "craneId": "404-1",
+        "data": {
+            "auto_mode": "auto",
+            "auto_drop": 1
+        }
+    },
+    "MC105": {
+        "craneId": "404-1",
+        "msg_name": "MC105",
+        "msg_uid": "125d9e8d-1485-4a43-b97d-9dfc3e4ec4c7",
+        "receiver": "CT",
+        "sender": "MC",
+        "timestamp": 1717057581841
+    },
+    "MC106": {
+        "msg_uid": "1234567890",
+        "msg_name": "MC106",
+        "sender": "MC",
+        "timestamp": 16879546201,
+        "receiver": "CT",
+        "craneId": "404-1",
+        "data": {
+            "scan_cmd_index": 1,
+            "trolley_start_pos": 45.0,
+            "trolley_target_pos": 89.0
+        }
+    },
+    "MC107": {
+        "msg_uid": "1234567890",
+        "msg_name": "MC107",
+        "sender": "MC",
+        "timestamp": 16879546201,
+        "receiver": "CT",
+        "craneId": "404-1",
+        "data": {
+            "bay_id": "10",
+            "safety_height": 20.1,
+            "bay_profile": [
+                {
+                    "row_index": 1,
+                    "container_id": "ABCD1234567",
+                    "container_pos": [
+                        53.04071029663086,
+                        0,
+                        -45.081278228759764
+                    ],
+                    "size": "40f",
+                    "tier": "-1"
+                }
+            ]
+        }
+    },
+    "MC108": {
+        "msg_uid": "1234567890",
+        "msg_name": "MC108",
+        "sender": "MC",
+        "timestamp": 16879546201,
+        "receiver": "CT",
+        "craneId": "404-1",
+        "data": {
+            "lane_id": "1",
+            "has_car": true,
+            "car_target_x": 20.5,
+            "car_target_z": 1.5,
+            "car_target_y": 0.3,
+            "car_target_t": 0.01,
+            "has_cntr": true,
+            "cntr_target_x": 20.5,
+            "cntr_target_z": 4.3,
+            "cntr_target_y": 0.3,
+            "cntr_target_t": 0.01,
+            "target_dis": 0.4,
+            "cntr_dislocation": false,
+            "cntr_pos": 1,
+            "vehicle_dir": 0
+        }
+    },
+    "MC110": {
+        "msg_uid": "1234567890",
+        "msg_name": "MC110",
+        "sender": "MC",
+        "timestamp": 16879546201,
+        "receiver": "CT",
+        "craneId": "404-1",
+        "data": {
+            "bay_id": "10",
+            "row_id": "03",
+            "tier": 1,
+            "isValid": false,
+            "x": 0,
+            "z": 0,
+            "safeHeight": 0.0,
+            "isLastOne": false
+        }
+    },
+    "MC111": {
+        "msg_uid": "1234567890",
+        "msg_name": "MC111",
+        "sender": "MC",
+        "timestamp": 16879546201,
+        "receiver": "CT",
+        "craneId": "404-1",
+        "data": {
+            "container_height": 2.6
+        }
+    },
+    "MC112": {
+        "msg_uid": "1234567890",
+        "msg_name": "MC112",
+        "sender": "MC",
+        "timestamp": 16879546201,
+        "receiver": "CT",
+        "craneId": "404-1",
+        "data": {
+            "task_id": "1111"
+        }
+    },
+    "MC113": {
+        "msg_uid": "1234567890",
+        "msg_name": "MC113",
+        "sender": "MC",
+        "timestamp": 16879546201,
+        "receiver": "CT",
+        "craneId": "404-1",
+        "data": {
+        }
+    }
+}
