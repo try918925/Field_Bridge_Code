@@ -1,0 +1,4 @@
+export LD_LIBRARY_PATH="/home/root123/workspace/VI_0812/cam_utils/lib/hikvision:${LD_LIBRARY_PATH}"
+export LD_LIBRARY_PATH="/home/root123/workspace/VI_0812/cam_utils/lib/deepstream-4.0:${LD_LIBRARY_PATH}"
+
+python3 setup.py build_ext --inplace
