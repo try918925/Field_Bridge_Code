@@ -1,0 +1,4 @@
+export LD_LIBRARY_PATH="/home/hnks/hjk_work/rtsp_reader/lib/hikvision:${LD_LIBRARY_PATH}"
+export LD_LIBRARY_PATH="/home/hnks/hjk_work/rtsp_reader/lib/deepstream-4.0:${LD_LIBRARY_PATH}"
+
+python3 setup.py build_ext --inplace
